@@ -1,0 +1,63 @@
+body{
+background-image: url(images/nightcity5.jpg);
+}
+.container{
+    background-color: var(--primary);
+    max-width: 1300px;
+    padding: 1em;
+    border-radius: 1em;
+    overflow: hidden;
+    color: var(--white);
+    text-align: center;
+}
+.choice-button{
+    background-color: var(--initbutton);
+    color: var(--white);
+}
+.card{
+    background-color: var(--primary);
+    padding: 1em;
+    border-radius: 1em;
+    color: var(--white);
+    text-align: center;
+    max-width: 1000px;
+}
+.card__image{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2em;
+    overflow: hidden;
+    margin-top: 1em;
+}
+.card__text{
+    font-size: 1.2em;
+}
+b{
+    color: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
